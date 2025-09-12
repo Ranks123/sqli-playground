@@ -21,11 +21,16 @@ A repository showcasing practical SQL Injection (SQLi) vulnerabilities, proof-of
     - **Vulnerability:** Conditional time delays via cookie parameter.  
     - **Result:** Extraction of administrator password.
 
-3.  *More reports coming soon...*
+3.  **[Python SQLi Automation](./report-automation.md)**  
+    - **Type:** Automated Blind SQL Injection  
+    - **Vulnerability:** Error-based blind extraction via Python scripting.  
+    - **Result:** Demonstrates automated password extraction.
 
 ## 🛠️ Scripts
 
-- **SQLi Data Extractor:** A Python script to automate data extraction via SQLi vulnerabilities.
+
+- **[Blind SQLi Data Extractor](./scripts/blind_sqli_extractor.py)**  
+  A Python script that automates the extraction of sensitive data via error-based blind SQL injection. Features database detection, length enumeration, and character-by-character extraction.
 
 ## 🎥 Demo Video
 
