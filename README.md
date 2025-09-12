@@ -16,7 +16,12 @@ A repository showcasing practical SQL Injection (SQLi) vulnerabilities, proof-of
     - **Vulnerability:** Error-based extraction via unprotected `id` parameter.  
     - **Result:** Extraction of database version and name.
 
-2.  *More reports coming soon...*
+2.  **[PortSwigger Blind SQLi Lab Exploit](./report-psql-lab.md)**  
+    - **Type:** Time-Based Blind SQL Injection  
+    - **Vulnerability:** Conditional time delays via cookie parameter.  
+    - **Result:** Extraction of administrator password.
+
+3.  *More reports coming soon...*
 
 ## 🛠️ Scripts
 
